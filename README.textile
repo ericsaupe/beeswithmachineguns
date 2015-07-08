@@ -27,7 +27,7 @@ easy_install beeswithmachineguns
 h2. Installation for developers (w/ virtualenv + virtualenvwrapper)
 
 <pre>
-git clone git://github.com/newsapps/beeswithmachineguns.git
+git clone git@github.com:ericsaupe/beeswithmachineguns.git
 cd beeswithmachineguns
 sudo easy_install pip
 pip install virtualenv
