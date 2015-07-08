@@ -29,8 +29,10 @@ h2. Installation for developers (w/ virtualenv + virtualenvwrapper)
 <pre>
 git clone git://github.com/newsapps/beeswithmachineguns.git
 cd beeswithmachineguns
-mkvirtualenv --no-site-packages bees
-easy_install pip
+sudo easy_install pip
+pip install virtualenv
+virtualenv venv
+source venv/bin/activate
 pip install -r requirements.txt
 </pre>
 
